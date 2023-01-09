@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+#card {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 5%;
+    margin: 10rem auto;
+    padding: 1rem;
+    width: 300px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+a {
+    color: hsl(216, 12%, 54%);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    padding: 15px 116px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    color: hsl(25, 97%, 53%);
+}
+
+.circle {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 50%;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 15px;
+    width: 25px;
+}
+
+a:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+#card1 {
+    display: block;
+}
+
+#card2 {
+    display: none;
+}
+
+.textOrange {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.img-mob {
+    padding: 0 60px;
+}
+
+#card2 h1,p {
+    text-align: center;
+}
